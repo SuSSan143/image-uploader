@@ -100,7 +100,6 @@ export const UploadBox = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  height: 95vh;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -160,7 +159,7 @@ export const Modal = styled.dialog`
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: white;
-  border-radius: 2px;
+  border-radius: 10px;
   border-width: 0;
   padding: 0;
   max-height: 80%;
