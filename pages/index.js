@@ -70,7 +70,7 @@ export default function Home() {
       }
     );
     const { data } = await response;
-    await setuploadedImage(data.data.attributes.image.data.attributes.formats);
+    await setuploadedImage(data.data.attributes.image.data.attributes);
     // @ts-ignore
     loadingModalRef.current.close();
     setIsImageShowing(true);
