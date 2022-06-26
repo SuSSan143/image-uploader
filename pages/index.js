@@ -83,7 +83,9 @@ export default function Home() {
     });
   };
 
-  
+  console.log(uploadedImage)
+
+
   if (isImageShowing && uploadedImage[LARGE].hasOwnProperty("url")) {
     return (
       <>
