@@ -49,7 +49,7 @@ export default function Home() {
     const body = new FormData();
     body.append("files", image);
     const response = await axios.post(
-      `${process.env.NEXT_PUBLIC_STRAPI_API_URL}api/upload`,
+      `https://strapi-image-uploader-backend.herokuapp.com/api/upload`,
       body,
       {
         onUploadProgress: (progressEvent) => {
